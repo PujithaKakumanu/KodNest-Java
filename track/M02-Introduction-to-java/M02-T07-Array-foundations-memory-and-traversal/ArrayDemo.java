@@ -2,6 +2,41 @@
 import java.util.Scanner;
 class ArrayDemo{
     public static void main(String[] args){
+        // Array is a non-primitive data type
+        // Array is a Static data type
+        // Array size is fixed at the time of creation
+        // Array is a non-linaer Data structure
+        // Array is a user defiend data type
+        // Array is a collection of same data type
+        // Array is a collection of elements of same data type stored in contigous memory location
+        // Array is a fixed size collection of elements of same data type stored in contigous memory location
+        // Arrays are used to overcome the limitation of primitive variables 
+        // array is nothing but group of variables of same type
+        // Advantages of array
+        // 1. Random access of elements
+        // 2. Cache friendly
+        // 3. Better memory locality
+        // 4. Easy to implement algorithms
+        // 5. Easy to search elements
+        // 6. Easy to sort elements
+        // 7. Easy to reverse elements
+        // 8. Easy to copy elements
+        // 9. Easy to delete elements
+        // 10. Easy to insert elements
+        // 11. Easy to traverse elements
+        // 12. Easy to print elements
+        // 13. Easy to search elements
+        // 14. Easy to sort elements
+        // 15. Easy to reverse elements
+        // 16. Easy to copy elements
+        // 17. Easy to delete elements
+        // 18. Easy to insert elements
+        // 19. Easy to traverse elements
+        // 20. Easy to print elements
+
+        // Disadvantages of array
+        // 1. Fixed size
+
         // print the array creation of size 5 assign values to using indexes and print using print statment
         int a[] = new int[5];
         a[0] = 10;

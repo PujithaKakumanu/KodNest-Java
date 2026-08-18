@@ -26,14 +26,18 @@ class SwitchDemo {
         // and it will continue to execute the remaining cases until it finds a break statement.
         int n1 = 10;
         switch (n1) {
-            case 10 -> System.out.println("Ten");
-            break;
-            case 20 -> System.out.println("twenty");
-            break;
-            case 30 -> System.out.println("thirty");
-            break;
-            default -> System.out.println("Invalid");
-            break;
+            case 10:
+                System.out.println("Ten");
+                break;
+            case 20:
+                System.out.println("twenty");
+                break;
+            case 30:    
+                System.out.println("thirty");
+                break;
+            default:
+                System.out.println("Invalid");
+                break;
         }
         
     }

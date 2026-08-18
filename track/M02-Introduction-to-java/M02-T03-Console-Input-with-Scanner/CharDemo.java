@@ -9,9 +9,8 @@ class CharDemo  {
         }
         // Reading character from user
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter char :");
-        char ch = scan.next().charAt(0);
-        System.out.println(ch); 
-        scan.close();
-    }
+            System.out.println("Enter char :");
+            char ch = scan.next().charAt(0);
+            System.out.println(ch); 
+        }
 }

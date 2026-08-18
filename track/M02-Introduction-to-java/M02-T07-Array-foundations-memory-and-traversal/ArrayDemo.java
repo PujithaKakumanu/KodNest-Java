@@ -12,6 +12,13 @@ class ArrayDemo{
         // Array is a fixed size collection of elements of same data type stored in contigous memory location
         // Arrays are used to overcome the limitation of primitive variables 
         // array is nothing but group of variables of same type
+        
+        // syntax of array declaration and creation: datatype[] arrayName = new datatype[size];
+        // syntax of array intialization: datatype[] arrayName = {value1, value2, value3, value4, value5};
+        // Array can be declared in three ways:datatype[] arrayName; datatype[] arrayName[]; datatype []arrayName;
+        // Array can be created in three ways:datatype[] arrayName = new datatype[size];
+        // Array can be intialized in three ways:datatype[] arrayName = {value1, value2, value3, value4, value5};
+        
         // Advantages of array
         // 1. Random access of elements
         // 2. Cache friendly
@@ -60,54 +67,54 @@ class ArrayDemo{
 
 
         // Enhanced for loop 
-        Scanner sc = new Scanner(System.in);
-        int[] arr  = new int[5];
-        System.out.println("Enter the array elements");
-        for(int i =0; i<=4; i++){
-            arr[i] = sc.nextInt();
-        }
-        // instead of hardcoded size of array use inbuilt array property arr.length
-        System.out.println("Elements are :");
-        for (int i =0; i<=arr.length-1 ;i++){
-            System.out.println(arr[i]);
-        }
+        try (Scanner sc = new Scanner(System.in)) {
+            int[] arr  = new int[5];
+            System.out.println("Enter the array elements");
+            for(int i =0; i<=4; i++){
+                arr[i] = sc.nextInt();
+            }
+            // instead of hardcoded size of array use inbuilt array property arr.length
+            System.out.println("Elements are :");
+            for (int i =0; i<=arr.length-1 ;i++){
+                System.out.println(arr[i]);
+            }
 
 
-        // for each loop for easy way to print
-        // System.out.println("Elements are :");
-        // for (int j: arr){
-        //     System.out.println(j);
-        // }
+            // for each loop for easy way to print
+            // System.out.println("Elements are :");
+            // for (int j: arr){
+            //     System.out.println(j);
+            // }
 
-        // Print the array in reverse order
-        System.out.println("Reverse order of elements are :");
-        for(int i =arr.length-1; i>=0; i--){
-            System.out.println(arr[i]);
-        }
+            // Print the array in reverse order
+            System.out.println("Reverse order of elements are :");
+            for(int i =arr.length-1; i>=0; i--){
+                System.out.println(arr[i]);
+            }
 
-        // copy array elements into the different array
-        int j = 0;
-        int[] arr1 = new int[arr.length];
-        for(int i =0; i<=arr.length-1; i++){
-            arr1[j] = arr[i];
-            j++;
-        }
-        System.out.println("Copied array elements are :");
-        for(j =0; j<=arr1.length-1; j++){
-            System.out.println(arr1[j]);
-        }
+            // copy array elements into the different array
+            int j = 0;
+            int[] arr1 = new int[arr.length];
+            for(int i =0; i<=arr.length-1; i++){
+                arr1[j] = arr[i];
+                j++;
+            }
+            System.out.println("Copied array elements are :");
+            for(j =0; j<=arr1.length-1; j++){
+                System.out.println(arr1[j]);
+            }
 
-        // copy array elements in reverse order
-        int k = 0;
-        int[] arr2 = new int[arr.length];
-        for(int i =arr.length-1; i>=0; i--){
-            arr2[k] = arr[i];
-            k++;
+            // copy array elements in reverse order
+            int k = 0;
+            int[] arr2 = new int[arr.length];
+            for(int i =arr.length-1; i>=0; i--){
+                arr2[k] = arr[i];
+                k++;
+            }
+            System.out.println("Copied array elements in reverse order are :");
+            for(k =0; k<=arr2.length-1; k++){
+                System.out.println(arr2[k]);
+            }
         }
-        System.out.println("Copied array elements in reverse order are :");
-        for(k =0; k<=arr2.length-1; k++){
-            System.out.println(arr2[k]);
-        }
-        sc.close();
     }
 }

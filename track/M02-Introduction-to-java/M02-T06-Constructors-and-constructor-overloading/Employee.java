@@ -24,8 +24,8 @@ class Employee {
 }
 class Main{
     public static void main(String[] args){
-        Employee e1 = new Employee("John", 1, 1000, "Software Engineer");
-        Employee e2 = new Employee("Jane", 2, 2000, "HR");
+        Employee e1 = new Employee("John", 1, 10000, "Software Engineer");
+        Employee e2 = new Employee("Jane", 2, 20000, "HR");
         e1.display();
         e2.display();
     }

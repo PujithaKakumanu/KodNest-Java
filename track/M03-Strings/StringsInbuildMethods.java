@@ -43,10 +43,16 @@ public class StringsInbuildMethods {
 
         //charAt() =>
         System.out.println(s.charAt(0));
-        //contains() =>
-        System.out.println(s.contains("Technologies"));
+        System.out.println(s.charAt(1));
+        //System.out.println(s.charAt(99));
+
         //substring() =>
         System.out.println(s.substring(0, 4));
+        System.out.println(s.substring(4));
+        System.out.println(s.substring(4, 10));
+        System.out.println(s.substring(10, 15));
+        System.out.println(s.substring(15, 20));
+
         //toUpperCase() =>
         System.out.println(s.toUpperCase());
         //toLowerCase() =>

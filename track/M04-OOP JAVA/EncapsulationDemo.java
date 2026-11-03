@@ -1,9 +1,9 @@
 
 class Book {
 
-    private int pageNumber;
+    private int pageNumber; // member variable or instance variable
 
-    public void setData(int x) {
+    public void setData(int x) { // member method/function/or instance method
         if (x > 0) {
             pageNumber = x;
         } else {
@@ -11,7 +11,8 @@ class Book {
         }
     }
 
-    public int getData() {
+    public int getData() { // member method/function/or instance method
+
         return pageNumber;
     }
 }

@@ -1,6 +1,6 @@
 // In Multi-Threading it will excute all the programs simultaneously
 // All are independent activities -> If one is sleep others are excute 
-// MultiTeading is achieved by 
+// MultiTeading is achieved by:
 // 1. Creating Thread class which is extends from main Thread class, Overriding run() method
 // 2. Creating objects
 // 3. Call start() method with reference variable

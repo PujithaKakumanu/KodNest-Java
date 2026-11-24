@@ -69,6 +69,7 @@ public class ThreadJoin {
         }
 
         pnj.interrupt();
+        pcj.interrupt();
         System.out.println("Main Thread Excecution completed and stoped using the file");
 
     }
